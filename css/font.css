@@ -1,0 +1,71 @@
+@font-face {
+    font-family: titlePx;
+    src: url(/font/titlepx.ttf);
+}
+
+@font-face {
+    font-family: textPx;
+    src: url(/font/textgt.ttf);
+}
+
+@font-face {
+    font-family: textPx1;
+    src: url(/font/textpx1.ttf);
+}
+
+.ft_titlePx {
+    font-family: titlePx;
+    margin: 0em;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.ft_textPx {
+    font-family: textPx;
+    margin: 0.25em 0em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ft_textPx1 {
+    font-family: textPx1;
+    margin: 0em;
+}
+
+.txtS0 {
+    font-size: 18pt;
+}
+
+.txtS1 {
+    font-size: 14pt;
+}
+
+.txtS2 {
+    font-size: 12pt;
+}
+
+.txtS3 {
+    font-size: 10pt;
+}
+
+.txtS4 {
+    font-size: 8pt;
+}
+
+.alg_l {
+    text-align: left;
+}
+
+.alg_c {
+    text-align: center;
+}
+
+.alg_tab1 {
+    margin-left: 1em;
+}
+
+.txtClick {
+    color: white;
+    /*-webkit-text-stroke: black 2px;*/
+    filter: drop-shadow(0px 2px 0px black) drop-shadow(2px 4px 0px rgba(0, 0, 0, 0.3));
+}

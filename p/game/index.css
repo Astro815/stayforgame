@@ -1,0 +1,235 @@
+#gmCap {
+    width: 100%;
+    height: 15em;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#gmCap>img {
+    height: fit-content;
+    max-height: 75%;
+    max-width: -webkit-fill-available;
+    margin: 3%;
+    filter: drop-shadow(0px 8px 3px rgba(0, 0, 0, 0.65));
+    animation: iconAnim 10s ease-in-out forwards infinite;
+}
+
+@keyframes iconAnim {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.textl1 {
+    width: 95%;
+    height: fit-content;
+    margin-left: 5%;
+    display: block;
+}
+
+#gmCm>span>p {
+    display: block;
+    margin-left: 2.5%;
+}
+
+.ptf {
+    width: 40%;
+    height: fit-content;
+    margin: 2.5%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ptf>img {
+    width: 4em;
+    margin: 1em;
+    filter: contrast(0.5) brightness(99) drop-shadow(0px 4px 1px rgba(0, 0, 0, 0.4));
+}
+
+#gmorther {
+    display: contents;
+    margin: 0px;
+    text-align: center;
+}
+
+.ortherIframe {
+    width: 98%;
+    height: 25em;
+    margin: 1%;
+}
+
+#gmTrailer {
+    display: flex;
+    justify-content: center;
+}
+
+#gmTrailer>iframe {
+    width: 75%;
+    height: 20em;
+}
+
+#gmItens>span {
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gmItens>span>img {
+    width: 5em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+progress {
+    width: 75%;
+    height: 2em;
+    color: cyan;
+    background: black;
+}
+
+.vsn_false {
+    width: 100%;
+    height: 3em;
+}
+
+.vsn_true {
+    width: 100%;
+    min-height: 20em;
+}
+
+#gmVsn>button {
+    float: left;
+    margin-block: 1em;
+}
+
+#gmVsn>button.vsn_true {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#gmVsn>button.vsn_false {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 10%;
+    margin-inline: 1em;
+}
+
+#gmVsn>button.vsn_false>section {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    background: #00000099;
+    display: none;
+}
+
+#gmVsn>button.vsn_true>section {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    background: #00000099;
+    display: block;
+}
+
+#gmVsn>button>section {
+    color: white;
+}
+
+#iframeGame {
+    width: 100%;
+    height: 27em;
+}
+
+#playIframeGame {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 27em;
+    background-position: center;
+    background-size: cover;
+    contain: content;
+}
+
+#playIframeGame>div {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(15px) brightness(50%) contrast(75%);
+}
+
+#playIframeGame>button {
+    z-index: 5;
+    filter: drop-shadow(0px 8px 6px rgba(0, 0, 0, 0.4));
+}
+
+.pnv {
+    width: 75%;
+    margin-inline: 12.5%;
+    background-color: #00000090;
+}
+
+.pnv>span {
+    display: flex;
+    height: 2em;
+    background-color: red;
+    animation: pnvSpan 1s ease-in-out alternate infinite;
+}
+
+.nvdStyle::before {
+    content: "- ";
+}
+
+@keyframes pnvSpan {
+    from {
+        background-color: rgb(203, 252, 129);
+    }
+    to {
+        background-color: rgb(159, 250, 23);
+    }
+}
+
+@media only screen and (max-width: 680px) and (min-width: 0px) {
+    .ptf {
+        flex-direction: column;
+        float: none;
+        margin-top: 2em;
+        width: 95%;
+    }
+    .gmLink {
+        display: flex;
+        flex-direction: column;
+    }
+    #gmItens>span {
+        width: 97%;
+        margin-bottom: 1em;
+    }
+    #gmVsn>button {
+        min-width: fit-content;
+    }
+    #gmTrailer>iframe {
+        width: 100%;
+    }
+    .pnv {
+        width: 100%;
+        margin: 0px;
+    }
+}

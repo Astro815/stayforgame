@@ -1,0 +1,456 @@
+{
+    "gr": [
+        "pypedolls",
+        "knuper",
+        "squidup",
+        "themanwhosurvive",
+        "taikontitangame",
+        "theftofcell",
+        "lonelyrabbit",
+        "backintime"
+    ],
+    "game": {
+        "pypedolls": {
+            "name": "PypeDolls",
+            "version": "1.10",
+            "desc": "Um mundo incrive fantásioso com varias criaturas para interagir.",
+            "predesc": "Wow, boa escolha! Um jogo onde você eh um sapinho que está em um mundo com varios objetivos para cumprir.",
+            "itchio": "https://stayforgame.itch.io/pype-dolls",
+            "trailer": "https://www.youtube.com/embed/8sMAYBJgaV8",
+            "gamejolt": "https://gamejolt.com/games/pypedolls/592704",
+            "online": "https://astro815.github.io/sfg_gb/PypeDolls/",
+            "cm": [{
+                    "title": "Como Controlar o Personagem",
+                    "text": "Use WASD ou as SETAS DO TECLADO para controlar o personagem.<br>Aperte ESPAÇO para disparar nos inimigos.<br>Aperte a letra E para entrar no carro."
+                },
+                {
+                    "title": "Como Controlar o Carro",
+                    "text": "Aperte E para Entrar/Sair do carro. Aperte L para ligar/desligar o GPS. Aperte R para Ligar/Desligar o rádio, Se quiser mudar de estação. Aperte T."
+                },
+                {
+                    "title": "Extras",
+                    "text": "Aperte P para pausar o jogo, e aperte C para resetar os chuncks desalinhados."
+                }
+            ],
+            "other": [{
+                "title": "Desenvolvimento da versão 1.10",
+                "type": "pnv",
+                "value": "68"
+            }, {
+                "title": "Biomas",
+                "type": "iframe",
+                "link": "/p/orther/pypedolls_mountains.html"
+            }, {
+                "title": "Inimigos",
+                "type": "iframe",
+                "link": "/p/orther/pypedolls_dolls.html"
+            }],
+            "item": [{
+                "name": "Maçã",
+                "nfile": "maca",
+                "desc": "Ela recupera a sua vida, normalmente o item aparece no bioma de FLORESTAS."
+            }, {
+                "name": "Moeda",
+                "nfile": "coin",
+                "desc": "Servem para comprar skins customizáveis, normalmente o item aparece em todos os biomas."
+            }, {
+                "name": "Moeda Dourada",
+                "nfile": "coinGold",
+                "desc": "Servem para comprar skins customizáveis, quando coletado dando 3x mais que a 'Moeda de Prata', normalmente o item aparece raramente na maioria os biomas."
+            }, {
+                "name": "Gasolina",
+                "nfile": "gasolina",
+                "desc": "Reabastece o combustível do carro, normalmente o item aparece nos biomas MONTANHAS, TUNEIS e FLORESTAS."
+            }, {
+                "name": "Poção Rever",
+                "nfile": "pocaoRever",
+                "desc": "Recarrega seus tiros, cada item desse adiciona 10 tiros a mais."
+            }],
+            "new": [{
+                "version": "1.10",
+                "ad": [
+                    "Remasterizações de todos os sprites.",
+                    "Moedas de Ouro adicionadas.",
+                    "Chat de comandos.",
+                    "Marca de rodas no chão, ao freirar bruscamente com o carro, as rodas deixam marcas no chão.",
+                    "Icone de indicação para ajudar o jogador.",
+                    "Musica Molca adicionada ao fundo da gameplay.",
+                    "Poção Rever.",
+                    "Botão para alternar nas linguagens Português e Inguês.",
+                    "Suporte para Celular.",
+                    "Suporte para Console. (Controle)"
+                ],
+                "re": [
+                    "fire Dolls removidos.",
+                    "yce Dolls removidos.",
+                    "Dolls removidos.",
+                    "Ciclo de Dia e Noite removidos.",
+                    "Munição removida.",
+                    "Balas removida.",
+                    "Arma removida.",
+                    "Efeito sonoro ao pausar.",
+                    "Relógio no jogo.",
+                    "Radio.",
+                    "BadRock removido."
+                ],
+                "mo": [
+                    "Nova tela de menu / ajustes / creditos / etc atualizada.",
+                    "Música de Menu alterada."
+                ],
+                "br": [
+                    "Item Fantasma."
+                ]
+            }, {
+                "version": "1.9.2",
+                "ad": [
+                    "Novo tutorial de como usar o jogo.",
+                    "Novo bioma de gelo.",
+                    "Adicionado Doll Yce.",
+                    "Adicionado Doll Eletric.",
+                    "Adicionado Doll Fire.",
+                    "Adicionado Coffe.",
+                    "Adicionado um 'Corretor' de Chuncks bugadas.",
+                    "Nova skin do pype Extermipype.",
+                    "2 Novas musicas para o radio.",
+                    "Botão de exportação de save para outra versão mais nova.",
+                    "Botão de importação de save de uma versão mais antiga.",
+                    "Botão de pause para o modo de celular (Mobile)."
+                ],
+                "re": [
+                    "As chuvas do jogo foram removidas."
+                ],
+                "mo": [
+                    "Nova tela de menu atualizada para ser mais dinâmico.",
+                    "Música de Menu alterada."
+                ],
+                "br": [
+                    "Bugs das Chuncks não carregarem a partir de um ponto específico.",
+                    "Chunck não ficarem totalmente alinhadas."
+                ]
+            }, {
+                "version": "1.8",
+                "ad": [
+                    "Modo de celular."
+                ],
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }]
+        },
+        "knuper": {
+            "name": "Knuper",
+            "version": "0.5",
+            "predesc": "Interessante, esse jogo e bastante viciante para pessoas que gostam de m desafio estilo arcade, então prepare-se cavalheiro!",
+            "trailer": "https://www.youtube.com/embed/JYpqvRZ_6xk",
+            "desc": "Um cavaleiro está em uma aventura, quando ver que a uma torre 'infinita', seu objetivo é subir até encontrar o fim dela, e encontrar seu grande prêmio!",
+            "itchio": "https://stayforgame.itch.io/knuper",
+            "gamejolt": "https://gamejolt.com/games/knuper/722333",
+            "online": null,
+            "cm": [{
+                "title": "Jogador",
+                "text": "Clique no lado Esquerdo da tela para fazer o player pular para o lado esquerdo.<br>Clique no lado Direito da tela para fazer o player pular para o lado direito."
+            }],
+            "item": [{
+                "name": "Ruppy",
+                "nfile": "ruppy",
+                "desc": "Esse item te permite clicar em ambos os lados da tela que o jogador nunca errará o caminho, mas dura por poucos segundos."
+            }, {
+                "name": "Esmeback",
+                "nfile": "esmeback",
+                "desc": "Esse item te permite que quando coletado o jogador poderá morrer que retornará na posição onde foi coletado."
+            }],
+            "orther": null,
+            "new": [{
+                "version": "0.5",
+                "ad": [
+                    "Power Up 'EsmeBack'."
+                ],
+                "re": null,
+                "mo": [
+                    "Chance de spaw do item 'Ruppy' foi aumentada."
+                ],
+                "br": [
+                    "Não salvar o recorde."
+                ]
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }]
+        },
+        "squidup": {
+            "name": "Squid Up",
+            "version": "1.0",
+            "desc": "Você é uma lulinha, e tem que nadar para ganhar mais pontos e ir mais fundo!",
+            "predesc": "Um jogo relaxante e legal, mas e só para celular.",
+            "itchio": null,
+            "gamejolt": "https://gamejolt.com/games/squidup/664208",
+            "trailer": "https://www.youtube.com/embed/mODEsIzDx60",
+            "online": null,
+            "cm": [{
+                "title": "Como Controlar o Personagem",
+                "text": "Arraste o seu dedo na tela para definir a posição do personagem."
+            }],
+            "other": null,
+            "item": [{
+                "name": "Up",
+                "nfile": "up",
+                "desc": "Ele faz o player subir para não ficar abaixo da tela."
+            }, {
+                "name": "Down",
+                "nfile": "down",
+                "desc": "Faz você descer para que não fique muito em cima da tela e não seja surpreendido."
+            }],
+            "new": [{
+                "version": "1.0",
+                "ad": null,
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Souza",
+                "func": "Dev / Art / Song Efx"
+            }]
+        },
+        "themanwhosurvive": {
+            "name": "The Man Who Survive",
+            "version": "1.0",
+            "desc": "Você é um personagem pixelado onde tem a sua história oculta (por enquanto), onde que você está em um cemitério onde que começam aparecer zumbis para te matar!",
+            "predesc": "Um velho jogo retro.",
+            "itchio": null,
+            "gamejolt": "https://gamejolt.com/games/mansurvives/539619",
+            "trailer": null,
+            "online": null,
+            "cm": [{
+                "title": "Como controlar o player",
+                "text": "Use as setas para controlá-lo, use o mouse para mexer a espada (após comprá-la)."
+            }],
+            "other": null,
+            "item": [{
+                "name": "Poção Speed",
+                "nfile": "pocao_speed",
+                "desc": "Te dá o dobro de velocidade por 10 segundos."
+            }, {
+                "name": "Poção Projection",
+                "nfile": "pocao_escudo",
+                "desc": "Simplesmente muda a sua vida para 17 (vida normal é 10) mesmo se você estiver com 1 de vida, e também serve como recuperador de vida!"
+            }],
+            "new": [{
+                "version": "1.0",
+                "ad": [
+                    "Zumbi Roxo",
+                    "Zumbi Azul",
+                    "Player",
+                    "Espinhos",
+                    "Cenário Único",
+                    "Moeda Branca",
+                    "Moeda Gold",
+                    "Barra de Efeitos",
+                    "Controles de Som",
+                    "Shop",
+                    "Poção Azul",
+                    "Poção Vermelha",
+                    "Espada",
+                    "Modo Debug"
+                ],
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Souza",
+                "func": "Dev / Art / Song Efx"
+            }]
+        },
+        "taikontitangame": {
+            "name": "Taikon Titan Game",
+            "version": "1.1",
+            "desc": "Se proteja dos Titãs, Ataque-os e se divirta, a história do jogo está no anime Shingeki no Kyojin.",
+            "predesc": "Referência?",
+            "itchio": null,
+            "gamejolt": "https://gamejolt.net/?token=sqHdhJZeNkN5fVxcaFUEGjf5eqHMGg",
+            "trailer": null,
+            "online": null,
+            "cm": [{
+                "title": "Como Controlar o Personagem:",
+                "text": "Use WASD para controlar o personagem.<br>Aperte ESPAÇO para pular no jogo.<br>Aperte ESPAÇO para atacar no ar."
+            }],
+            "other": null,
+            "item": [{
+                "name": "Gás Jump",
+                "nfile": "I_Gas_Jump",
+                "desc": "Reabastece o combustível para pular e atacar os titãs."
+            }, {
+                "name": "Batata",
+                "nfile": "I_batata",
+                "desc": "Recupera a sua vida para não perder no game."
+            }, {
+                "name": "DNA",
+                "nfile": "I_DNA",
+                "desc": "Ele não tem função nesta versão 1.2.0, mas pelas próximas atualizações você poderá se transformar em um titã para lutar com os outros titãs."
+            }],
+            "new": [{
+                "version": "1.0",
+                "ad": null,
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Programador / Designer / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }, {
+                "name": "Lohan Torquato",
+                "func": "Art",
+                "link": "https://www.instagram.com/htpp_lohan14/"
+            }]
+        },
+        "theftofcell": {
+            "name": "Theft Of Cell",
+            "version": "1.0",
+            "desc": "Você é um garoto de 21 anos e ganhou na Ultra Cena! E seu incrível sonho é comprar um celular, mas você não pode ser roubado no jogo.",
+            "predesc": "Um jogo para uma GameJam...",
+            "itchio": "https://stayforgame.itch.io/theft-of-cell",
+            "gamejolt": null,
+            "online": "https://astro815.github.io/sfg_gb/TheftOfCell/",
+            "trailer": null,
+            "cm": [{
+                "title": "Controles",
+                "text": "WSD para se mover, e A para pular."
+            }],
+            "other": null,
+            "item": null,
+            "new": [{
+                "version": "1.0",
+                "ad": null,
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }, {
+                "name": "Rato Agiota",
+                "func": "Art",
+                "link": ""
+            }, {
+                "name": "King",
+                "func": "Idealista",
+                "link": ""
+            }]
+        },
+        "lonelyrabbit": {
+            "name": "Lonely Rabbit",
+            "version": "1.0",
+            "desc": "Em seu velho videogame antigo, há um jogo chamado Lonely Rabbit, colete seus papeis para chegar ao fim e ter uma grande descoberta.",
+            "predesc": "Acho que isso não e um coelho.",
+            "itchio": null,
+            "gamejolt": "https://gamejolt.com/games/lonely-rabbit/699458",
+            "trailer": null,
+            "online": null,
+            "cm": [{
+                "title": "Controles",
+                "text": "WASD para se mover, e ESPAÇO para Coletar."
+            }],
+            "other": [{
+                "title": "Desenvolvimento da versão 1.0",
+                "type": "pnv",
+                "value": "89"
+            }],
+            "item": [{
+                "name": "Papel",
+                "nfile": "map",
+                "desc": "Colete esses papéis para consegui fugir e vencer!"
+            }],
+            "new": [{
+                "version": "0.2",
+                "ad": null,
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx"
+            }]
+        },
+        "backintime": {
+            "name": "Back In Time",
+            "version": "0.1",
+            "desc": "Descrição",
+            "predesc": "Ainda está em desenvolvimento masam otnemivlovnesed me átse adniA...",
+            "itchio": null,
+            "gamejolt": "https://gamejolt.com/games/backintime/630189",
+            "trailer": null,
+            "online": null,
+            "cm": [{
+                "title": "Controles",
+                "text": "WASD para se mover."
+            }],
+            "other": null,
+            "item": null,
+            "new": [{
+                "version": "0.2",
+                "ad": null,
+                "re": null,
+                "mo": null,
+                "br": null
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }]
+        },
+        "TitleGame": {
+            "name": "NameGame",
+            "version": "1.0.0",
+            "desc": "Descrição",
+            "predesc": "Pre Descrição",
+            "itchio": "Link Itch.Io",
+            "gamejolt": "Link GameJolt",
+            "trailer": "Link Youtube",
+            "online": "Link do GitHub",
+            "cm": [{
+                "title": "Cm Title",
+                "text": "Cm Text"
+            }],
+            "other": null,
+            "item": [{
+                "name": "Item",
+                "nfile": "item",
+                "desc": "Descriçã do item"
+            }],
+            "new": [{
+                "version": "1.0",
+                "ad": [
+                    "Adição"
+                ],
+                "re": [
+                    "Remoção"
+                ],
+                "mo": [
+                    "Modificação"
+                ],
+                "br": [
+                    "Bugs Corrigidos"
+                ]
+            }],
+            "credits": [{
+                "name": "Filipe Gabriel",
+                "func": "Dev / Art / Song Efx",
+                "link": "https://www.instagram.com/astro_815.0/"
+            }]
+        }
+    }
+}
