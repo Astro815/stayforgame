@@ -3,7 +3,7 @@
 }
 
 html {
-    background-image: url(/img/bg_false.png);
+    background-image: url(../img/bg_false.png);
     background-size: cover;
     padding: 0px;
 }
@@ -11,6 +11,7 @@ html {
 iframe.bottom {
     border: 0px;
     width: 100%;
+    transform: translateY(10px);
 }
 
 html,
@@ -44,7 +45,7 @@ span.btimg {
     display: block;
     width: 100%;
     height: 10em;
-    background: url(/img/botton_pag.png);
+    background: url(../img/botton_pag.png);
     background-size: contain;
     image-rendering: pixelated;
     text-align: center;
@@ -83,6 +84,7 @@ nav {
     flex-direction: column;
     padding: 5em;
     padding-top: 3em;
+    line-height: 2em;
 }
 
 div.session {
@@ -91,6 +93,7 @@ div.session {
     /*display: flex;
     justify-content: center;*/
     filter: drop-shadow(2px 5px 5px rgba(0, 0, 0, 0.25));
+    line-height: normal;
 }
 
 .sb {
@@ -103,79 +106,79 @@ div.session {
 
 .sncOrange {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_o.png);
+    border-image-source: url(../img/bd_o.png);
     background-color: #d9a066;
 }
 
 .sncOrangeInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_oint.png);
+    border-image-source: url(../img/bd_oint.png);
 }
 
 .sncRed {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_r.png);
+    border-image-source: url(../img/bd_r.png);
     background-color: #cf7a70;
 }
 
 .sncRedInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_rint.png);
+    border-image-source: url(../img/bd_rint.png);
 }
 
 .sncGreen {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_g.png);
+    border-image-source: url(../img/bd_g.png);
     background-color: #69d66d;
 }
 
 .sncGreenInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_gint.png);
+    border-image-source: url(../img/bd_gint.png);
 }
 
 .sncBlue {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_b.png);
+    border-image-source: url(../img/bd_b.png);
     background-color: #669fd9;
 }
 
 .sncBlueInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_bint.png);
+    border-image-source: url(../img/bd_bint.png);
 }
 
 .sncGray {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_gray.png);
+    border-image-source: url(../img/bd_gray.png);
     background-color: #a0a0a0;
 }
 
 .sncGrayInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_grayint.png);
+    border-image-source: url(../img/bd_grayint.png);
 }
 
 .sncYellow {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_y.png);
+    border-image-source: url(../img/bd_y.png);
     background-color: #d9ce66;
 }
 
 .sncYellowInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_yint.png);
+    border-image-source: url(../img/bd_yint.png);
 }
 
 .sncPurple {
     border: 10px solid transparent;
-    border-image-source: url(/img/bd_p.png);
+    border-image-source: url(../img/bd_p.png);
     background-color: #d866d9;
 }
 
 .sncPurpleInt {
     border: 8px solid transparent;
-    border-image-source: url(/img/bd_pint.png);
+    border-image-source: url(../img/bd_pint.png);
 }
 
 button:active {

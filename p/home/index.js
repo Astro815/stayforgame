@@ -1,6 +1,6 @@
 function renderGame() {
     for (var i = 0; i < dtGames.gr.length; i++) {
-        let e = "<div class='sb sncGreen stgm'><span class='sb sncGreenInt' style=\"background-image:url(/img/game/" + dtGames.gr[i] + ".png);\"></span><p class='ft_titlePx txtS0'>" + dtGames.game[dtGames.gr[i]].name + "</p><br style=\"line-height: 0.25em;\"><button class='sb sncRed' onclick='gogame(\"" + dtGames.gr[i] + "\")'><p class='ft_titlepx'><font size='6'>JOGAR</font></p></button></div>";
+        let e = "<div class='sb sncGreen stgm'><span class='sb sncGreenInt' style=\"background-image:url(img/game/" + dtGames.gr[i] + ".png);\"></span><p class='ft_titlePx txtS0'>" + dtGames.game[dtGames.gr[i]].name + "</p><br style=\"line-height: 0.25em;\"><button class='sb sncRed' onclick='gogame(\"" + dtGames.gr[i] + "\")'><p class='ft_titlepx'><font size='6'>JOGAR</font></p></button></div>";
         qs("#gm").innerHTML += e;
     }
     pagTag = "pre-blog";
@@ -25,4 +25,4 @@ function preBlog() {
 
 pagTag = "home";
 
-loadGame("/json/dtGame.json");
+loadGame("json/dtGame.json");
