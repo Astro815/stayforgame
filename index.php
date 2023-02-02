@@ -53,7 +53,7 @@ $getGame = new getGame();
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <base href="/webSfg_PHP/" target="_top">
+        <base href="/" target="_top">
         <link rel="icon" href="img/icon/icon_top.png" type="image/x-icon">
         <link href="css/elementPx.css" rel="stylesheet">
         <link href="css/font.css" rel="stylesheet">
