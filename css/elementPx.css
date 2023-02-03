@@ -236,6 +236,11 @@ button:active>* {
     text-decoration: underline;
 }
 
+button.sb {
+    user-select: none;
+    cursor: pointer;
+}
+
 
 /* ADAPTADOR */
 

@@ -39,11 +39,11 @@
             }, {
                 "title": "Biomas",
                 "type": "iframe",
-                "link": "/p/orther/pypedolls_mountains.html"
+                "link": "pypedolls_mountains.html"
             }, {
                 "title": "Inimigos",
                 "type": "iframe",
-                "link": "/p/orther/pypedolls_dolls.html"
+                "link": "pypedolls_dolls.html"
             }],
             "item": [{
                 "name": "Maçã",

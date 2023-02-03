@@ -1,6 +1,7 @@
 // VARS
 
 let qs = (e) => { return document.querySelector(e); };
+let $ = (e) => { return document.querySelector(e); };
 let dtGames = null;
 let dtBlog = null;
 let gamepag = "";
@@ -33,5 +34,5 @@ function loadGame(url) {
 }
 
 function gogame(g) {
-    window.open("/p/game/index.html?game=" + g, "_top")
+    window.open("p/game/?game=" + g, "_top")
 }
