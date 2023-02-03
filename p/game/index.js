@@ -100,41 +100,43 @@ function applyGamePage() {
 
     if (!dtGames['gr'].includes(gamepag)) {
         window.open("p/404.html", "_top");
-    }
+    } else {
 
-    let game = new GamePag();
-    let base = dtGames.game[gamepag];
+        let game = new GamePag();
+        let base = dtGames.game[gamepag];
 
-    game.head(base);
+        game.head(base);
 
-    game.link(base.itchio, "Red", "itchio", "Itch.Io");
-    game.link(base.gamejolt, "Green", "gamejolt", "Game Jolt");
+        game.link(base.itchio, "Red", "itchio", "Itch.Io");
+        game.link(base.gamejolt, "Green", "gamejolt", "Game Jolt");
 
-    game.comoJogar(base.cm);
-    game.other(base.other);
-    game.trailer(base.trailer);
-    game.item(base.item);
+        game.comoJogar(base.cm);
+        game.other(base.other);
+        game.trailer(base.trailer);
+        game.item(base.item);
 
-    game.novidade(base.new, "ad", "Adicionado:", 0, "#gmNRV");
-    game.novidade(base.new, "re", "Removido:", 0, "#gmNRV");
-    game.novidade(base.new, "mo", "Modificações:", 0, "#gmNRV");
-    game.novidade(base.new, "br", "Bugs Corrigidos:", 0, "#gmNRV");
+        game.novidade(base.new, "ad", "Adicionado:", 0, "#gmNRV");
+        game.novidade(base.new, "re", "Removido:", 0, "#gmNRV");
+        game.novidade(base.new, "mo", "Modificações:", 0, "#gmNRV");
+        game.novidade(base.new, "br", "Bugs Corrigidos:", 0, "#gmNRV");
 
-    for (let i = 0; i < base.new.length; i++) {
-        $("#gmVsn").innerHTML += `<button class='sb sncRed vsn_false' onclick='ocVsn(${i})' id='_vsn${i}'><p class='txtClick ft_titlePx alg_c'><font size='5'>${base.new[i].version}</font></p><br><section class='sb sncRedInt'></section></button>`;
-        game.novidade(base.new, "ad", "Adicionado:", i, `#_vsn${i} > section`);
-        game.novidade(base.new, "re", "Removido:", i, `#_vsn${i} > section`);
-        game.novidade(base.new, "mo", "Modificações:", i, `#_vsn${i} > section`);
-        game.novidade(base.new, "br", "Bugs Corrigidos:", i, `#_vsn${i} > section`);
-    }
-    game.creditos(base.credits);
-    /*
-        if (dtGames.game[gamepag].online == null) {
-            qs("#divOG").innerHTML = "<h1 class='ft_titlePx'><big>Jogue Online</big></h1><br style='line-height: 1em;'><h3 class='ft_textPx1 alg_c'>Desculpe, não existe versão online desse jogo =(.</h3>"
-        } else {
-            qs("#playIframeGame").style.backgroundImage = "url(img/game/" + gamepag + ".png)";
+        for (let i = 0; i < base.new.length; i++) {
+            $("#gmVsn").innerHTML += `<button class='sb sncRed vsn_false' onclick='ocVsn(${i})' id='_vsn${i}'><p class='txtClick ft_titlePx alg_c'><font size='5'>${base.new[i].version}</font></p><br><section class='sb sncRedInt'></section></button>`;
+            game.novidade(base.new, "ad", "Adicionado:", i, `#_vsn${i} > section`);
+            game.novidade(base.new, "re", "Removido:", i, `#_vsn${i} > section`);
+            game.novidade(base.new, "mo", "Modificações:", i, `#_vsn${i} > section`);
+            game.novidade(base.new, "br", "Bugs Corrigidos:", i, `#_vsn${i} > section`);
         }
-    */
+        game.creditos(base.credits);
+        /*
+            if (dtGames.game[gamepag].online == null) {
+                qs("#divOG").innerHTML = "<h1 class='ft_titlePx'><big>Jogue Online</big></h1><br style='line-height: 1em;'><h3 class='ft_textPx1 alg_c'>Desculpe, não existe versão online desse jogo =(.</h3>"
+            } else {
+                qs("#playIframeGame").style.backgroundImage = "url(img/game/" + gamepag + ".png)";
+            }
+        */
+        console.log("END");
+    }
 }
 
 /* function startOnlineGame() {
@@ -148,3 +150,7 @@ setInterval(() => { resizeItens() }, 1000);
 pagTag = "game";
 
 loadGame("json/dtGame.json");
+
+$("#gmCap > img").onload = () => {
+    $("#load").classList.remove("loading");
+}

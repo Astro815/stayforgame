@@ -13,19 +13,23 @@ function loadGame(url) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            // Typical action to be performed when the document is ready:
-            if (pagTag == "home") {
-                dtGames = JSON.parse(xhttp.responseText);
-                renderGame();
-            } else if (pagTag == "game") {
-                dtGames = JSON.parse(xhttp.responseText);
-                applyGamePage();
-            } else if (pagTag == "pre-blog") {
-                dtBlog = JSON.parse(xhttp.responseText);
-                preBlog()
-            } else if (pagTag == "blog") {
-                dtBlog = JSON.parse(xhttp.responseText);
-                blog()
+            switch (pagTag) {
+                case "home":
+                    dtGames = JSON.parse(xhttp.responseText);
+                    renderGame();
+                    break;
+                case "game":
+                    dtGames = JSON.parse(xhttp.responseText);
+                    applyGamePage();
+                    break;
+                case "pre-blog":
+                    dtBlog = JSON.parse(xhttp.responseText);
+                    preBlog();
+                    break;
+                case "blog":
+                    dtBlog = JSON.parse(xhttp.responseText);
+                    blog();
+                    break;
             }
         }
     };
