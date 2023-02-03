@@ -1,16 +1,16 @@
 @font-face {
     font-family: titlePx;
-    src: url(../font/titlepx.ttf);
+    src: url(/font/titlepx.ttf);
 }
 
 @font-face {
     font-family: textPx;
-    src: url(../font/textgt.ttf);
+    src: url(/font/textgt.ttf);
 }
 
 @font-face {
     font-family: textPx1;
-    src: url(../font/textpx1.ttf);
+    src: url(/font/textpx1.ttf);
 }
 
 .ft_titlePx {

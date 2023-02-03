@@ -18,7 +18,6 @@
             "itchio": "https://stayforgame.itch.io/pype-dolls",
             "trailer": "https://www.youtube.com/embed/8sMAYBJgaV8",
             "gamejolt": "https://gamejolt.com/games/pypedolls/592704",
-            "tags": "pypedolls, pype, dolls, aventura, pixels, mobile, pc, console, free, gratis, mundo aberto, zumbis, apocalipse",
             "online": "https://astro815.github.io/sfg_gb/PypeDolls/",
             "cm": [{
                     "title": "Como Controlar o Personagem",
@@ -40,11 +39,11 @@
             }, {
                 "title": "Biomas",
                 "type": "iframe",
-                "link": "p/orther/pypedolls_mountains.html"
+                "link": "/p/orther/pypedolls_mountains.html"
             }, {
                 "title": "Inimigos",
                 "type": "iframe",
-                "link": "p/orther/pypedolls_dolls.html"
+                "link": "/p/orther/pypedolls_dolls.html"
             }],
             "item": [{
                 "name": "Maçã",
@@ -149,7 +148,6 @@
             "predesc": "Interessante, esse jogo e bastante viciante para pessoas que gostam de m desafio estilo arcade, então prepare-se cavalheiro!",
             "trailer": "https://www.youtube.com/embed/JYpqvRZ_6xk",
             "desc": "Um cavaleiro está em uma aventura, quando ver que a uma torre 'infinita', seu objetivo é subir até encontrar o fim dela, e encontrar seu grande prêmio!",
-            "tags": "knuper, cavalheiro, torre, tyccon, pixels, mobile, pular, free, gratis, subir, joias",
             "itchio": "https://stayforgame.itch.io/knuper",
             "gamejolt": "https://gamejolt.com/games/knuper/722333",
             "online": null,
@@ -192,7 +190,6 @@
             "desc": "Você é uma lulinha, e tem que nadar para ganhar mais pontos e ir mais fundo!",
             "predesc": "Um jogo relaxante e legal, mas e só para celular.",
             "itchio": null,
-            "tags": "squid up, mar, oceano, tyccon, pixels, mobile, nadar, free, gratis, subir, pedras",
             "gamejolt": "https://gamejolt.com/games/squidup/664208",
             "trailer": "https://www.youtube.com/embed/mODEsIzDx60",
             "online": null,
@@ -229,7 +226,6 @@
             "predesc": "Um velho jogo retro.",
             "itchio": null,
             "gamejolt": "https://gamejolt.com/games/mansurvives/539619",
-            "tags": "The Man Who Survive, 8 bit, zumbis, pixels, pc, arcade, free, gratis, retro, velho, old",
             "trailer": null,
             "online": null,
             "cm": [{
@@ -280,7 +276,6 @@
             "predesc": "Referência?",
             "itchio": null,
             "gamejolt": "https://gamejolt.net/?token=sqHdhJZeNkN5fVxcaFUEGjf5eqHMGg",
-            "tags": "Taikon Titan Game, titãns, aldeia, ataque, pc, anime, Shingeki no Kyojin, gratis, Attack on Titan",
             "trailer": null,
             "online": null,
             "cm": [{
@@ -326,7 +321,6 @@
             "itchio": "https://stayforgame.itch.io/theft-of-cell",
             "gamejolt": null,
             "online": "https://astro815.github.io/sfg_gb/TheftOfCell/",
-            "tags": "Rio de Janeiro, Brasil, roubo, celular, sorteio, ladrão, aventura, pixel, fugir",
             "trailer": null,
             "cm": [{
                 "title": "Controles",
@@ -362,7 +356,6 @@
             "predesc": "Acho que isso não e um coelho.",
             "itchio": null,
             "gamejolt": "https://gamejolt.com/games/lonely-rabbit/699458",
-            "tags": "Mistério, suspence, terror, coelho, raposa, lonely, rabbit, floresta",
             "trailer": null,
             "online": null,
             "cm": [{
@@ -388,8 +381,7 @@
             }],
             "credits": [{
                 "name": "Filipe Gabriel",
-                "func": "Dev / Art / Song Efx",
-                "link": "https://www.instagram.com/astro_815.0/"
+                "func": "Dev / Art / Song Efx"
             }]
         },
         "backintime": {
@@ -399,7 +391,6 @@
             "predesc": "Ainda está em desenvolvimento masam otnemivlovnesed me átse adniA...",
             "itchio": null,
             "gamejolt": "https://gamejolt.com/games/backintime/630189",
-            "tags": "Tempo, de volta, 8 bit, pixel, gratis, online, viagem no tempo, paradoxso",
             "trailer": null,
             "online": null,
             "cm": [{
