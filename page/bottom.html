@@ -1,0 +1,63 @@
+<head>
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <style>
+        body {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../assets/image/bottom.png');
+            background-size: contain;
+            image-rendering: pixelated;
+            animation: bgAnim 60s forwards infinite linear;
+            height: 10em;
+        }
+        
+        @keyframes bgAnim {
+            0% {
+                background-position-x: 0%;
+            }
+            100% {
+                background-position-x: -206.5%;
+            }
+        }
+        
+        a {
+            display: inline-block;
+            margin: 0.75em;
+        }
+        
+        a>img {
+            width: 2em;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/stayforgame/" target="_top" class="pixBorder pink">
+        <img src="../assets/icon/bottom/insta.png">
+    </a>
+    <!-- Youtube -->
+    <a href="https://www.youtube.com/channel/UCGNuCWqaB8lSvomoShsGxbA/featured" target="_top" class="pixBorder red">
+        <img src="../assets/icon/bottom/youtu.png">
+    </a>
+    <!-- GameJolt -->
+    <a href="https://gamejolt.com/@StayForGame" target="_top" class="pixBorder green">
+        <img src="../assets/icon/bottom/gamejolt.png">
+    </a>
+    <!-- Discord -->
+    <a href="https://discord.gg/5FZGM2vnVm" target="_top" class="pixBorder blue">
+        <img src="../assets/icon/bottom/discord.png">
+    </a>
+    <!-- Itch.Io -->
+    <a href="https://stayforgame.itch.io/" target="_top" class="pixBorder red">
+        <img src="../assets/icon/bottom/itchio.png">
+    </a>
+    <!-- Suporte -->
+    <a href="mailto:stayforgameoffs@gmail.com?subject=Questions" target="_top" class="pixBorder gray">
+        <img src="../assets/icon/bottom/suport.png">
+    </a>
+</body>
