@@ -322,6 +322,16 @@ section#donate>div>img {
     }
 }
 
+@media only screen and (max-width: 512px)  {
+    #fg{
+        grid-template-columns: 100%;
+    }
+
+    section#featuredGames{
+        height: 48em;
+    }
+}
+
 @media only screen and (max-width: 448px) {
     section#donate{
         height: 27em;

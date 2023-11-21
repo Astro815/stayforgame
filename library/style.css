@@ -47,7 +47,7 @@ main{
 
 .listGames>li{
     display: grid;
-    grid-template-columns: 12em 75%;
+    grid-template-columns: 12em calc(100% - 12em);
     grid-auto-rows: 10em;
     border-radius: 1em;
     border: solid 2px #aaa;
@@ -117,4 +117,22 @@ main{
 
 .listGames>li>div:nth-child(2)>p{
     font-family: 'tw';
+}
+
+@media only screen and (max-width: 1024px) {
+    main{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #searchBox{
+        width: calc(100% - 2em);
+    }
+}
+
+@media only screen and (max-width: 480px)  {
+    .listGames>li{
+        grid-template-columns: 100%;
+    }
 }

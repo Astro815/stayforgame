@@ -295,3 +295,38 @@ div#version ul {
 #game_credits p{
     list-style: circle;
 }
+
+/* ADAPT */
+
+@media only screen and (max-width: 1024px)  {
+    #game_itens>div{
+        grid-template-columns: repeat(3, calc(100% / 3));
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    main{
+        width: 100%;
+    }
+
+    #game_trailer>iframe{
+        width: 95%;
+        aspect-ratio: 16 / 9;
+    }
+
+    #game_itens>div{
+        grid-template-columns: repeat(2, calc(100% / 2));
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    .buttonsLink{
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    #game_itens>div{
+        grid-template-columns: 100%;
+    }
+}
