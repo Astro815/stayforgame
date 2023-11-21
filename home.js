@@ -7,6 +7,8 @@ btnDonate.on("success", () => {
     const popup = "<div class='popupAnimed'>Você copiou a Chave.</div>";
 
     popupMain.innerHTML = popup;
+
+    alert("Oi oi!\nSó para avisa que o remetente do código do Pix que você irá fazer estará com o primeiro nome como \"Filipe\", ou como \"@astro_815\", certo?\nObrigado por nos ajudar!")
 });
 
 onloadgamedata = () => {
