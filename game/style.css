@@ -79,6 +79,7 @@ body>div#load{
     height: 10em;
     background-position: center;
     background-size: cover;
+    image-rendering: pixelated;
 }
 
 #game_logo {
