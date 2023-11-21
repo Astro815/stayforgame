@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Forma_1" data-name="Forma 1" class="cls-1" d="M129,76c4.489-35.43,31-57.777,54-56,24.227,1.871,40.148,30.146,43,52,4.091,31.342-17.741,56.171-39,81q-30.013,35.053-60,74a461.424,461.424,0,0,0-51-71c-24.2-27.573-47.594-47.936-46-78,1.259-23.744,18.2-55.291,45-57C98.781,19.483,125.136,41.82,129,76Z" transform="translate(-0.219 4.547)"/>
+</svg>

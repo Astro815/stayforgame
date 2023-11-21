@@ -1,0 +1,41 @@
+/* IMPORT FONTS */
+
+@font-face {
+    font-family: logoFont;
+    src: url("../sfg_resources/fonts/logoFont.TTF");
+}
+
+@font-face {
+    font-family: tw;
+    src: url("../sfg_resources/fonts/tw.ttf");
+}
+
+@font-face {
+    font-family: tw;
+    font-weight: bold;
+    src: url("../sfg_resources/fonts/tw_bold.ttf");
+}
+
+@font-face {
+    font-family: rbt;
+    src: url("../sfg_resources/fonts/rbt.ttf");
+}
+
+@font-face {
+    font-family: teko;
+    src: url("../sfg_resources/fonts/teko.ttf");
+}
+
+@font-face {
+    font-family: pixel;
+    src: url("../sfg_resources/fonts/pixel.ttf");
+}
+
+/* CLASSES FONTS */
+.fontLogoFont{
+    font-family: logoFont;
+}
+
+.fontTW{
+    font-family: tw;
+}

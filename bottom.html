@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sfg_css/default.css">
+        <style>
+            html,body,body>div,body>div>div{
+                width: 100%;
+                height: 100%;
+            }
+
+            html{
+                background: rgb(33, 32, 34);
+            }
+
+            body{
+                padding: 1.5em;
+            }
+
+            body>div{
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+            }
+
+            body>div>div{
+                display: flex;
+                flex-direction: column;
+                contain: size;
+                border-right: 2px #333 solid;
+                padding-inline: 1em;
+            }
+
+            body>div>div:nth-last-child(1){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-right: none;
+            }
+
+            h3{
+                color: #eee;
+                font-family: 'tw';
+            }
+
+            ul>li{
+                list-style: none;
+            }
+
+            a{
+                display: block;
+                color: #ccc;
+                font-family: 'tw';
+                width: fit-content;
+                margin: 0.2em 1em;
+            }
+            a:hover{
+                color: #fff;
+                text-decoration: underline;
+            }
+
+            .logo{
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!-- Parte 1 -->
+            <div>
+                <h3>Acesse</h3>
+                <ul>
+                    <li>
+                        <a href="/" target="_top">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/library" target="_top">Biblioteca de Jogos</a>
+                    </li>
+                    <li>
+                        <a href="privacy/" target="_top">Privacidade e Segurança</a>
+                    </li>
+                    <li>
+                        <a href="mailto:stayforgameoffs@gmail.com" target="_top">Suporte por email</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Parte 2 -->
+            <div>
+                <h3>Redes</h3>
+                <ul>
+                    <li>
+                        <a href="https://stayforgame.itch.io/" target="_top">Itch.io</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/stayforgame/" target="_top">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/invite/5FZGM2vnVm" target="_top">Servidor no Discord</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCGNuCWqaB8lSvomoShsGxbA" target="_top">Youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://gamejolt.com/@StayForGame" target="_top">Game Jolt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Parte 3 -->
+            <div></div>
+            <!-- Parte 4 -->
+            <div></div>
+            <!-- Parte 5 -->
+            <div>
+                <img class="logo" src="sfg_resources/logo.svg" alt="Logo da empresa StayForGame">
+            </div>
+        </div>
+    </body>
+</html>

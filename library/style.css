@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: #999999;
+    background-image: url(../sfg_resources/bgTower.png);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: 19.5vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: #fff;
+    padding-block: 1em;
+}
+
+#searchBox{
+    margin-left: 1em;
+    width: 18em;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    border: 1px #333 solid;
+    outline: none;
+}
+
+.listGames{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em;
+    background: #666;
+}
+
+.listGames>h4{
+    color: #fff;
+    font-family: 'tw';
+    font-size: 14pt;
+}
+
+.listGames>h4::after{
+    content: "";
+    animation: points 500ms linear infinite forwards;
+}
+
+.listGames>li{
+    display: grid;
+    grid-template-columns: 12em 75%;
+    grid-auto-rows: 10em;
+    border-radius: 1em;
+    border: solid 2px #aaa;
+    margin-bottom: 1em;
+    contain: content;
+    background-color: #fff;
+}
+
+.listGames>li:nth-last-child(1){
+    margin-bottom: 0em;
+}
+
+.listGames>li>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    contain: size;
+}
+
+.game_cape{
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+}
+
+.listGames>li>div:nth-child(1)>a{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    font-family: pixel;
+    font-size: 24pt;
+    color: #fff;
+    animation: btnAnim 500ms infinite forwards steps(1);
+}
+
+@keyframes btnAnim {
+    0%{
+        background: #f54235;
+    }
+    50%{
+        background: #f86a46;
+    }
+    100%{
+        background: #f54235;
+    }
+}
+
+.listGames>li>div:nth-child(1)>a:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+.listGames>li>div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.listGames>li>div:nth-child(2)>h2{
+    font-family: 'rbt';
+}
+
+.listGames>li>div:nth-child(2)>p{
+    font-family: 'tw';
+}

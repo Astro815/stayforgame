@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sfg_css/default.css">
+        <style>
+        html,body{
+            overflow: hidden;
+            display: initial;
+            height: 100%;
+        }
+
+        body{
+            display: grid;
+            grid-template-columns: auto auto repeat(3, 8em);
+            background-color: #663399;
+        }
+        
+        #logo{
+            height: 100%;
+            padding: 1em;
+            align-self: center;
+            animation: joinLogo 0.75s cubic-bezier(0, 0.9, 0, 0.99);
+            transition: transform 100ms;
+        }
+
+        @keyframes joinLogo {
+            from{
+                transform: translateX(-5em);
+            }
+            to{
+                transform: translateX(0em);
+            }
+        }
+        .init{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: nowrap;
+            height: 5em;
+            width: max-content;
+        }
+
+        .init:hover>#logo{
+            transform: scale(1.1) !important;
+            transition: transform 100ms;
+        }
+
+        #name{
+            color: var(--ctWhite);
+            justify-self: left;
+            align-self: center;
+            font-family: logoFont;
+        }
+
+        .link{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            color: var(--ctWhite);
+            border-inline-start: 1px rgb(155, 80, 206) solid;
+        }
+
+        .link:hover{
+            background-color: #fff4;
+        }
+
+        .link>img{
+            width: 1em;
+            margin: 0.25em;
+            image-rendering: pixelated;
+        }
+        </style>
+    </head>
+    <body>
+        <a class="init" href="/" target="_top">
+            <img id="logo" src="sfg_resources/logo.svg" alt="Logo da StayForGame">
+            <h1 id="name" class="fontLogoFont colorWhite">STAYFORGAME</h1>
+        </a>
+        <br>
+        <a class="link fontTW" href="/" target="_top">
+            <img src="sfg_resources/icon/head_1.png" alt="Mini Logo de uma Casa">
+            <p>Home</p>
+        </a>
+        <a class="link fontTW" href="privacy/" target="_top">
+            <img src="sfg_resources/icon/head_0.png" alt="Mini Logo de um Escudo">
+            <p>Privacidade</p>
+        </a>
+        <a class="link fontTW" href="mailto:stayforgameoffs@gmail.com" target="_top">
+            <img src="sfg_resources/icon/head_2.png" alt="Mini Logo de um Esclamação">
+            <p>Suporte</p>
+        </a>
+    </body>
+</html>

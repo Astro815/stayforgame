@@ -1,0 +1,337 @@
+h1 {
+    color: white;
+    font-family: 'logoFont';
+    font-size: 28pt;
+}
+
+/* POPUP */
+#popupMain{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+}
+
+.popupAnimed{
+    display: flex;
+    width: 13em;
+    height: 2em;
+    border-radius: 1em;
+    border: 2px solid #eebc88;
+    background: #e9952c;
+    color: #241504;
+    pointer-events: none;
+    font-family: 'pixel';
+    font-size: 18pt;
+    z-index: 128;
+    position: fixed;
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;
+    animation: popup 500ms 250ms ease-in forwards;
+}
+
+@keyframes popup {
+    0%{
+        opacity: 100%;
+        transform: translateY(0em);
+    }
+    100%{
+        opacity: 0%;
+        transform: translateY(1em);
+    }
+}
+
+/* BANNER */
+
+section#banner {
+    background-image: url(sfg_resources/pHome/banner.jpg);
+    animation: fadeIn 2s forwards cubic-bezier(0.1, 0.01, 0, 0.93);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    padding: 3em;
+}
+
+section#banner>p {
+    color: white;
+    font-size: 16pt;
+    font-family: 'tw';
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+/* GAMES */
+
+section#featuredGames {
+    display: flex;
+    flex-direction: column;
+    height: 26em;
+    margin: 0.4em 5em;
+    align-items: center;
+}
+
+section>h3 {
+    font-family: rbt;
+    font-size: 18pt;
+}
+
+section#featuredGames>h3 {
+    color: #111;
+}
+
+section#featuredGames>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.2em;
+    border: 4px solid #69438f;
+    width: 10em;
+    height: 3em;
+    font-size: 16pt;
+    border-radius: 0.5em;
+    font-family: 'pixel';
+    color: var(--ctWhite);
+    background: #8f64e3;
+}
+
+section#featuredGames>a:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#fg {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-top: 0.5em;
+    width: 100%;
+    height: inherit;
+    background-color: #111;
+    border-radius: 0.5em;
+}
+
+#fg>div {
+    display: grid;
+    grid-template-rows: 50% auto auto;
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    contain: content;
+    border: 2px solid #dbf;
+}
+
+#fg>div>div {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#fg>div>p {
+    font-family: rbt;
+    display: flex;
+    font-style: normal;
+    height: 100%;
+    text-transform: uppercase;
+    align-items: center;
+    justify-self: center;
+    margin-top: 0.1em;
+    font-weight: bolder;
+    width: 85%;
+    text-align: center;
+    justify-content: center;
+    font-size: 18pt;
+}
+
+#fg>div>a {
+    margin: 1em;
+    width: calc(100% - 2em);
+    margin-block: 0.2em;
+    height: 1.5em;
+    background: #ff5555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ctWhite);
+    font-family: teko;
+    font-size: 24pt;
+    border-radius: 0.25em;
+    border: 3px solid #c93d3d;
+    align-self: flex-start;
+}
+
+#fg>div>a:hover {
+    background: #ff6666;
+    cursor: pointer;
+}
+
+/* Donate */
+
+section#donate {
+    background: linear-gradient(45deg, #c93d3d, #ff5555);
+    height: 18em;
+    display: flex;
+}
+
+section#donate>div {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    width: 85%;
+    height: 90%;
+    margin: auto auto;
+}
+
+section#donate>div>div>h3 {
+    font-family: 'logoFont';
+    font-size: 28pt;
+}
+
+section#donate>div>div {
+    padding-right: 1em;
+    color: var(--ctWhite);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#donate>div>div>p {
+    font-family: 'tw';
+    font-size: 14pt;
+}
+
+section#donate>div>img {
+    height: 100%;
+    filter: drop-shadow(3px 7px 7px #9009);
+    justify-self: center;
+}
+
+#btnDonate{
+    width: 65%;
+    height: 3.5em;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding-inline: 1em;
+    background: #55cc33;
+    border: 4px solid #1a510b;
+    border-radius: 1em;
+    align-items: center;
+}
+
+#btnDonate:hover{
+    cursor: pointer;
+    background: #70e450;
+    border: 4px solid #2b7018;
+}
+
+#btnDonate:active{
+    background: #50e4e4;
+    border: 4px solid #184d70;
+    transform: scale(1.1);
+}
+
+#btnDonate>img{
+    align-self: center;
+    justify-self: center;
+    height: 75%;
+    aspect-ratio: 1 / 1;
+    image-rendering: pixelated;
+    transform-origin: 250% 50%;
+}
+
+#btnDonate>p{
+    justify-self: left;
+    font-family: 'pixel';
+    font-size: 18pt;
+    color: #0b2404;
+    transform-origin: left;
+}
+
+#btnDonate>*{
+    transition: transform 100ms;
+}
+
+#btnDonate:hover>*{
+    transform: scale(1.1);
+    transition: transform 100ms;
+}
+
+/* ADAPT */
+@media only screen and (max-width: 1024px) {
+    #fg{
+        grid-template-columns: repeat(3, calc(100%/3));
+    }
+    
+    #fg>div:last-child{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    section#featuredGames{
+        margin: 0.4em 1em;
+    }
+
+    section#donate{
+        height: fit-content;
+    }
+
+    section#donate>div{
+        grid-template-columns: 100%;
+        grid-template-areas: "img text";
+        grid-template-rows: 7em 15em;
+    }
+
+    section#donate>div>div{
+        grid-area: text;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    section#donate>div>img{
+        grid-area: img;
+    }
+    
+    #btnDonate{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #fg{
+        grid-template-columns: repeat(2, 50%);
+    }
+    
+    #fg>div:nth-last-child(2){
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 448px) {
+    section#donate{
+        height: 27em;
+    }
+
+    #btnDonate{
+        height: 4.5em;
+    }
+    
+    section#donate>div{
+        grid-template-rows: 7em 18em;
+    }
+}

@@ -1,0 +1,296 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: #999999;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: 5vw;
+    color: #111;
+}
+
+body::backdrop {
+    image-rendering: pixelated;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: #fff;
+}
+
+section>h3 {
+    font-family: rbt;
+    display: block;
+    font-size: 18pt;
+    margin: 0.25em 1em;
+}
+
+section>h3[txtc] {
+    text-align: center;
+}
+
+h4 {
+    font-family: 'tw';
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+a[disabled],
+section[disabled]{
+    display: none !important;
+}
+
+/* Load Page */
+body.loading>div#load{
+    background: linear-gradient(180deg, #7d44a7, #986abb 15%, #b892d5 95%);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5em;
+    left: 0%;
+    width: 100%;
+    height: calc(100vh - 5em);
+    justify-content: center;
+    z-index: 99;
+    align-items: center;
+    font-family: 'tw';
+    color: #111;
+}
+
+body.loading>div#load>h2::after{
+    content: "";
+    animation: points 1s linear infinite forwards;
+}
+
+body>div#load{
+    display: none;
+}
+
+/* Game Info */
+
+/* SECTION BANNER */
+
+#game_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10em;
+    background-position: center;
+    background-size: cover;
+}
+
+#game_logo {
+    height: 90%;
+    animation: sineSize 2s infinite ease-in-out;
+}
+
+@keyframes sineSize {
+    0% {
+        transform: scale(0.95);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+}
+
+/* SECTION NAME */
+
+#game_name {
+    display: flex;
+    flex-direction: row;
+    margin: 0.25em 1em;
+    font-family: rbt;
+}
+
+/* SECTION NAME */
+
+#game_predesc {
+    display: block;
+    font-size: 10pt;
+    text-align: center;
+    font-family: 'tw';
+    margin: 0.1em 1em;
+}
+
+/* SECTION DESCRIPTION */
+
+#sc_desc {
+    padding: 1em;
+    background-position: center;
+    contain: layout;
+    color: #fff;
+}
+
+#game_desc {
+    display: block;
+    font-size: 12pt;
+    font-family: 'tw';
+    margin: 0.1em 2em;
+}
+
+/* SECTION PLAY */
+
+.buttonsLink {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 6em;
+    background: #333;
+}
+
+.buttonsLink>a {
+    border-style: solid;
+    border-width: 4px;
+    color: #fff;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 6em auto;
+    grid-auto-rows: calc(4em - 8px);
+    align-items: center;
+    justify-content: start;
+    margin: 1em;
+}
+
+.buttonsLink>a:hover {
+    filter: brightness(1.2);
+}
+
+.buttonsLink>a>img {
+    height: 80%;
+    align-self: center;
+    justify-self: center;
+}
+
+.buttonsLink>a>h4 {
+    display: block;
+    font-family: 'pixel';
+    font-size: 18pt;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+/* COMO JOGAR */
+
+#game_tutorial {
+    padding: 1em;
+    font-family: tw;
+}
+
+/* TRAILER */
+
+#game_trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+#game_trailer>iframe {
+    width: 80%;
+    /*height: 15em;*/
+    aspect-ratio: 16/ 7;
+    border-radius: 1em;
+}
+
+/* ITENS */
+
+#game_itens>div {
+    display: grid;
+    grid-template-columns: repeat(4, calc(100% / 4));
+    background: #666;
+}
+
+#game_itens>div>div {
+    width: calc(100% - 1em);
+    height: calc(100% - 1em);
+    padding: 1em;
+    background-color: #999;
+    border: 2px solid #333;
+    border-radius: 1em;
+    margin: 0.5em;
+}
+
+#game_itens>div>div>img {
+    width: 25%;
+    image-rendering: pixelated;
+    background: #555;
+    border-radius: 1em;
+    border: 2px #333 solid;
+}
+
+#game_itens>div>div {
+    font-family: 'tw';
+}
+
+/* Novidades */
+
+#game_news>div,
+div#version {
+    padding-inline: 2em;
+    padding-bottom: 1em;
+    font-family: 'tw';
+}
+
+#game_news>div>ul,
+div#version ul {
+    padding-inline: 2em;
+}
+
+
+/* Verções */
+
+#game_versions {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 3em auto;
+}
+
+#game_versions h4 {
+    margin-inline: 1em 0.25em;
+    align-self: center;
+}
+
+#game_versions select {
+    width: 15em;
+    height: 2em;
+    border-radius: 0.5em;
+    outline: none;
+    font-family: 'tw';
+    font-size: 12pt;
+}
+
+#game_versions select:hover{
+    cursor: pointer;
+}
+
+#game_versions>div:nth-last-child(1n) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+#game_versions>div#version {
+    padding-block: 1em;
+    display: block;
+    overflow: hidden;
+    color: #eee;
+}
+
+/* CREDITS */
+#game_credits{
+    font-family: 'tw';
+    padding-inline: 2em;
+    padding-bottom: 1em;
+}
+
+#game_credits p{
+    list-style: circle;
+}

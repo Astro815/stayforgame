@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game - StayForGame</title>
+        <link rel="shortcut icon" href="../sfg_resources/icon/ico_64.png" type="image/x-icon">
+        <link rel="stylesheet" href="../sfg_css/default.css">
+        <link rel="stylesheet" href="style.css">
+        <style id="stylePage">
+            :root{
+                --gameColor: #000;
+            }
+        </style>
+    </head>
+    <body class="loading">
+        <embed id="head" src="../head.html" type="text/html">
+        <div id="load">
+            <h2>Carregando</h2>
+        </div>
+        <main>
+            <!-- BANNER -->
+            <div id="game_banner" alt="Banner do GAME">
+                <img id="game_logo" alt="Logo do Game">
+            </div>
+            <!-- NOME -->
+            <h1 id="game_name">GameName</h1>
+            <!-- <p id="game_predesc">Wow, boa escolha! Um jogo onde você eh um sapinho que está em um mundo com vários objetivos para cumprir.</p>-->
+            <!-- DESCRIÇÃO -->
+            <section id="sc_desc" style="background-color: color-mix(in srgb, #555 50%, var(--gameColor));">
+                <h3>Descrição</h3>
+                <h2 id="game_desc">Description Game</h2>
+            </section>
+            <!-- JOGAR -->
+            <section>
+                <h3 txtc>Jogar</h3>
+                <div class="buttonsLink">
+                    <a id="link_itchio" href="" style="background-color: #ff5945;border-color: #ad3223;">
+                        <img src="../sfg_resources/pGame/itchio.svg" alt="Logo da Itch.Io">
+                        <h4>Jogar na Itch.Io</h4>
+                    </a>
+                    <a id="link_gamejolt" href="" style="background-color: #5bc73a;border-color: #328a1c;">
+                        <img src="../sfg_resources/pGame/gamejolt.svg" alt="Logo da GameJolt">
+                        <h4>Jogar na GameJolt</h4>
+                    </a>
+                </div>
+            </section>
+            <!-- COMO   JOGAR -->
+            <section>
+                <h3 txtc>Como Jogar</h3>
+                <div id="game_tutorial"></div>
+            </section>
+            <!-- TRAILER -->
+            <section id="game_trailer">
+                <h3 txtc>Trailer</h3>
+                <iframe
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                ></iframe>
+            </section>
+            <!-- ITENS -->
+            <section id="game_itens">
+                <h3 txtc>Itens</h3>
+                <div>
+                    <!-- Itens List -->
+                </div>
+            </section>
+            <!-- Novidades -->
+            <!-- <section id="game_news">
+                <h3 txtc>Novidades - 1.10</h3>
+                <div>
+                    <h3>Adicionados</h3>
+                    <ul>
+                        <li>Remasterizações de todos os sprites.</li>
+                    </ul>
+                    <h3>Removido</h3>
+                    <ul>
+                        <li>Remasterizações de todos os sprites.</li>
+                    </ul>
+                </div>
+            </section>-->
+            <!-- Verções -->
+            <section id="game_versions" style="background-color: color-mix(in srgb, #999 50%, var(--gameColor));">
+                <h3 txtc>Verções</h3>
+                <div>
+                    <h4>Versão:</h4>
+                    <select name="versionsList" id="inVersion"></select>
+                </div>
+                <div id="version" style="background-color: color-mix(in srgb, #444 50%, var(--gameColor));">
+                    <h3>Adicionados</h3>
+                    <ul>
+                        <li>Remasterizações de todos os sprites.</li>
+                        <li>Moedas de Ouro adicionadas.</li>
+                        <li>Chat de comandos.</li>
+                        <li>Marca de rodas no chão, ao freirar bruscamente com o carro, as rodas deixam marcas no chão.</li>
+                        <li>Ícone de indicação para ajudar o jogador.</li>
+                        <li>Música 'Molca' adicionada ao fundo da gameplay.</li>
+                        <li>Poção Rever.</li>
+                        <li>Botão para alternar nas linguagens português e inglês.</li>
+                        <li>Suporte para Celular.</li>
+                        <li>Suporte para Console. (Controle)</li>
+                    </ul>
+                    <h3>Removido</h3>
+                    <ul>
+                        <li>Remasterizações de todos os sprites.</li>
+                        <li>Moedas de Ouro adicionadas.</li>
+                        <li>Chat de comandos.</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Creditos -->
+            <section id="game_credits">
+                <h3 txtc>Creditos</h3>
+                <p>
+                    <!-- Creditos -->
+                </p>
+            </section>
+        </main>
+        <embed id="bottom" src="../bottom.html" type="text/html">
+    </body>
+    <script src="../sfg_js/main.js"></script>
+    <script src="index.js"></script>
+</html>
